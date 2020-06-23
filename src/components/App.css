@@ -1,0 +1,18 @@
+.App {
+  background-color: #5876a6;
+  background-size: cover;
+  color: #c8ced9;
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 3rem;
+  align-self: center;
+}
