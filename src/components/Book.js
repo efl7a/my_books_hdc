@@ -37,9 +37,9 @@ import './Book.css';
         </img>
         <div className="BookDetails">
           <h3>{this.props.book.title}</h3>
-          <h4>Author: {this.props.book.author}</h4>
-          <h4>Year Published: {this.props.book.year}</h4>
-          <h4>Genre: {this.props.book.genre}</h4>
+          <p>Author: {this.props.book.author}</p>
+          <p>Year Published: {this.props.book.year}</p>
+          <p>Genre: {this.props.book.genre}</p>
         </div>
         <div className="editButtons">
           <button onClick={(e) => this.handleEditClick(e)} value={this.props.book.id}>Edit</button>

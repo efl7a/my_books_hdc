@@ -45,12 +45,14 @@ import './Bookshelf.css';
 
   render() {
     return(
-      <div>
+      <div className="Bookshelf">
         <h2>{this.props.title}</h2>
-        <ul className="Bookshelf">
+        <ul className="Bookshelf List">
           {this.renderBooks(this.state.books)}
         </ul>
-        <button onClick={this.handleAddClick}>Add Book</button>
+        <div>
+          <button onClick={this.handleAddClick}>Add Book</button>
+        </div>
         {this.state.addBook ? <BookForm handleOperation={this.handleAddBook} /> : null }
       </div>
     );

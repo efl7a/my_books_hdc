@@ -1,8 +1,16 @@
-.addForm {
+.bookFormContainer {
+  width: 75%;
+
+  align-self: center;
+}
+
+.bookForm {
   margin-top: 1rem;
   margin-bottom: 2rem;
+
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   background-color: #c8ced9;
   color: #5876a6;

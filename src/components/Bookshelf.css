@@ -1,3 +1,11 @@
 .Bookshelf {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Bookshelf List {
   list-style-type: none;
 }
