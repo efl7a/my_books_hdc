@@ -1,0 +1,22 @@
+.addForm {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #c8ced9;
+  color: #5876a6;
+}
+
+input {
+  background-color: inherit;
+  color: inherit;
+
+  font-size: 2rem;
+  margin: 0.5rem;
+  border: .25rem solid #5876a6;
+}
+
+input::placeholder {
+  padding-left: .5rem;
+}

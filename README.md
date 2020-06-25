@@ -1,3 +1,30 @@
+Exercise 1: Add the ability for the user to add a book (i.e. no hardcoding books!).
+
+
+EXTRA CHALLENGE: Refactor your application to operate more as a library. I.e. Many bookshelves, with many books.
+
+You could also let the user add bookshelves!
+
+Exercise 2: Some people have bookshelves of books they've never read. So try adding some functionality that allows the user to denote whether or not they've read the book.
+
+Exercise 3: Let's give our user the ability to remove books from the bookshelf.
+
+EXTRA CHALLENGE:
+
+Can you make your bookshelf a hidden door? I.e. If you click on a certain book, can you display an easter egg message?
+
+Create a button within each book that user's can hit to denote they've read the book.
+The button should change color and text.
+I.e. Going from Something like:
+
+Unread
+
+To:
+
+Read
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
