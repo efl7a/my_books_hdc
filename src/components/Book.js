@@ -42,8 +42,8 @@ import './Book.css';
           <p>Genre: {this.props.book.genre}</p>
         </div>
         <div className="editButtons">
-          <button onClick={(e) => this.handleEditClick(e)} value={this.props.book.id}>Edit</button>
-          <button onClick={(e) => this.handleDelete(e)} value={this.props.book.id}>Delete</button>
+          <button onClick={this.handleEditClick} value={this.props.book.id}>Edit</button>
+          <button onClick={this.handleDelete} value={this.props.book.id}>Delete</button>
         </div>
       </div>
     )

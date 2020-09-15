@@ -52,8 +52,8 @@ import './Bookshelf.css';
         </ul>
         <div>
           <button onClick={this.handleAddClick}>Add Book</button>
+          {this.state.addBook ? <BookForm handleOperation={this.handleAddBook} /> : null }
         </div>
-        {this.state.addBook ? <BookForm handleOperation={this.handleAddBook} /> : null }
       </div>
     );
   }
